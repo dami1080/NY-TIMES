@@ -1,0 +1,40 @@
+.content {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    
+}
+
+img {
+    width: 200px;
+}
+
+nav {
+    height: 50px;
+}
+
+button {
+    background-color: lightseagreen;
+    width: 100px;
+    
+}
+
+  .space {
+      font-weight: bold;
+      padding: 5px;
+  }
+
+
+ #menu {
+     padding: 5px;
+ }
+
