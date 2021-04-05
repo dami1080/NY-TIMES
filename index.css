@@ -14,7 +14,7 @@
     
 }
 
-img {
+.ny {
     width: 200px;
 }
 
@@ -37,4 +37,42 @@ button {
  #menu {
      padding: 5px;
  }
+.pic {
+    
+   
+    height: 20px; 
+    width: 35px;
+    
+     
+}
+
+.icons {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.social {
+    border-radius: 50%;
+    background-color: lightgrey;
+    padding: 5px;
+}
+ .sect-img {
+     
+    width: 50%;
+    
+}
+  .guth {
+    display: flex;
+    justify-content: center; 
+  }
+ .head {
+    text-align: center; 
+ }
+
+ .fig {
+     text-align: center;
+ }
+
 
