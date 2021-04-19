@@ -1,10 +1,23 @@
+body {
+    min-width: 1200px;
+  }
+
+ .bicep2 {
+    
+    width: 100%;
+ }
+
+
+
 .content {
     display: flex;
     position: fixed;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    
     border-bottom: 1px solid lightgray;
+    width: 100%;
+    background-color: white;
     
 }
 
@@ -18,25 +31,29 @@
     width: 200px;
 }
 
-nav {
-    height: 50px;
+.nav-bar {
+    height: 150px;
+    width: 100px;
+    min-width: 1000px;
+    
 }
 
-button {
+.sub {
     background-color: lightseagreen;
     width: 100px;
     
 }
 
   .space {
-      font-weight: bold;
-      padding: 5px;
-  }
+    font-weight: bold;
+    padding: 5px;
+}
 
 
  #menu {
-     padding: 5px;
- }
+    padding: 5px;
+}
+
 .pic {
     
    
@@ -51,6 +68,7 @@ button {
     width: 20%;
     justify-content: space-around;
     margin: auto;
+    margin-top: 50px;
 }
 
 .social {
@@ -60,19 +78,367 @@ button {
 }
  .sect-img {
      
-    width: 50%;
+    width: 55%;
+    
     
 }
-  .guth {
-    display: flex;
-    justify-content: center; 
-  }
+
  .head {
-    text-align: center; 
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+     
  }
 
- .fig {
-     text-align: center;
+ .fig-caption {
+     
+    width: 55%;
+     margin: auto;
+     
  }
 
+ .guth {
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+ }
+
+  .mis {
+      margin-top: 70px;
+      font-size: 23px;
+      width: 35%;
+      margin: auto;
+  }
+
+  .edit {
+     float: right;
+     width: 300px; 
+  }
+
+  .edi {
+      width: 100px;
+      padding: 10px 10px 10px 0px;
+  }
+
+.lining {
+    display: flex;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.pick {
+    border-bottom: 1px solid lightgray;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.unlock {
+    text-align: center;
+}
+
+.unlock a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.underline {
+    color: lightgrey;
+    margin-bottom: 10px;
+
+}
+
+.inflation {
+    width: 35%;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 23px;
+
+}
+
+.big {
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    width: 1000px;
+    height: 700px;
+    background-image: url(/images/inflation.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 280px 280px;
+    margin: 0px auto;
+    gap: 20px 10px;
+    grid-row-gap: 20px;
+
+}
+
+.grid-img1 {
+    padding-top: 180px;
+    font-size: 12px;
+}
+ .ugrid {
+    margin: 100px auto 0px;
+    width: 1000px;
+ }
+ .rid {
+     font-weight: bold;
+ }
+ .dennis {
+     margin: auto;
+     width: 35%;
+     margin-top: 50px;
+     text-decoration: underline;
+ }
+ .date {
+     width: 35%;
+     margin: auto;
+     margin-top: 40px;
+ }
+
+ .theory {
+     font-size: 24px;
+ }
+
+ .kovac {
+    width: 35%;
+    margin: auto;
+    font-size: 23px;
+    margin-top: 50px;
+ }
+
+ .stan {
+    width: 80%;
+    font-size: 13px;
+    color: rgb(12, 6, 6); 
+    margin-top: -10px;
+ }
+ .video {
+    margin: 0px auto;
+
+ }
+ .spirals {
+     font-weight: bold;
+ }
+ .was {
+     width: 35%;
+     font-size: 30px;
+     margin: auto;
+
+
+ }
+ .fore {
+   font-size: 12px;
+   margin-bottom: 10px;
+    
+    
+ }
+ .pix {
+    height: 20px; 
+    width: 20px; 
+    padding: 10px;
+ }
+ .soc {
+     display: flex;
+     width: 15%;
+    justify-content: space-around;
+    
+    
+ }
+ .design {
+    
+    background-color: rgb(238, 238, 238);
+    border-radius: 60%; 
+ }
+ .comments {
+     display: flex;
+     justify-content: space-around;
+     
+     
+ }
+ .read {
+    cursor: pointer;
+    background-color: #567b95;
+    height: 45px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+}
+ 
+  .link {
+      font-size: 15px;
+      color: blue;
+  }
+  .grid-left {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: 40px 1fr 1fr;
+    width: 90%;
+    grid-gap: 10px;
+    height: 750px;
+    border-top: 1px solid black;
+  }
+  .grid-left-heading {
+    grid-column: 1 / 4;
+  }
+
+  .grid-right {
+    border-top: 1px solid black;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 1 / 3; 
+  }
+  .grid-right-list {
+    list-style-type: none; 
+  }
+
+  .grid-left-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    border-top: 1px solid black;
+    grid-gap: 10px; 
+  }
+  .bottom-img {
+    width: 300px;
+    height: 200px;
+  }
+  .grid-left-heading a {
+      text-decoration: none;
+      font-size: 22px;
+  }
+  .grid-box {
+    width: 300px;
+    height: 250px;
+  }
+  .img-caption {
+    font-size: 13px;
+    color: #666;
+    width: 75%;
+    margin-top: -10px;
+  }
+  .pic-caption {
+    font-size: 15px;
+  }
+  .grid-list-style 
+  {
+    border-top: 1px solid lightgray;
+    margin-bottom: 10px
+  }
+  .grid-list-style a {
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+ }
+ .grid-more-article {
+    display: grid;
+    width: 80%;
+    min-width: 1000px;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    margin: 0 auto;
+    margin-top: 40px;
+    grid-gap: 20px; 
+ }
+
+
+ .footer-icons {
+     width: 15px;
+     height: 15px;
+ }
+ .nyc-logo2-container {
+    width: 100%;
+    grid-column: 1 / 7;
+    grid-row: 1 / auto;
+}
+
+.nyc-logo2 {
+   height: 50px;
+   margin-left: -18px; 
+}
+.gotohome {
+   float: right;
+   font-size: 10px;
+    color: rgb(69, 113, 148);
+    margin-top: 10px;
+    text-decoration: none; 
+}
+.footer-list {
+    list-style-type: none;
+}
+.footer-subscribe {
+    border-left: 1px solid lightgrey;
+}
+.left-margin {
+    margin-left: 15px;
+}
+.bottom-margin {
+    margin-bottom: 10px;
+}
+.mobile {
+    margin-top: 10px;
+    border-top: 1px solid lightgrey;
+}
+.footer-link {
+    width: 80%;
+    grid-column: 1 / 7;
+    grid-row: 3 / auto;
+    border-top: 1px solid lightgrey;
+    margin-top: 20px;
+    margin: 0 auto;
+
+}
+.footer-link-container {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.footer {
+    width: 80%;
+    min-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) 1.3fr;
+    grid-template-rows: 50px 1fr 50px;
+    border-top: 5px double lightgrey;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.footer-link-container a {
+    font-size: 12px;
+    text-decoration: none;
+}
+.footer-list > li > a {
+    text-decoration: none;
+    color: black;
+}
+.covid-news {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    background-color: white;
+  }
+  
+  .covid-news > pre {
+    min-width: 1000px;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  main {
+     width: 90%;
+     margin: 0 auto; 
+  }
 
