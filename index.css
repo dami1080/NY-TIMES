@@ -5,6 +5,9 @@ body {
  .bicep2 {
     
     width: 100%;
+    
+
+    
  }
 
 
@@ -94,6 +97,7 @@ body {
      
     width: 55%;
      margin: auto;
+     font-size: 15px;
      
  }
 
@@ -224,14 +228,15 @@ body {
  }
  .was {
      width: 35%;
-     font-size: 30px;
+     font-size: 23px;
      margin: auto;
 
 
  }
  .fore {
    font-size: 12px;
-   margin-bottom: 10px;
+   
+    
     
     
  }
